@@ -18,7 +18,7 @@ const Dashboard = () => {
         </p>
       </div>
       <img
-        src="https://tse4.mm.bing.net/th?id=OIP.r-VNXvB-4_-WkPJSlzZOZgHaE0&pid=Api&P=0&h=1"
+        src="https://tse4.mm.bing.net/th?id=OIP.r-VNXvB-4_-WkPJSlzZOZgHaE0&pid=Api&P=0&h=180"
         alt="background"
         className="girl-image"
       />
