@@ -1,17 +1,21 @@
 .topnav {
-  @apply overflow-hidden bg-[#000140];
+  @apply overflow-hidden bg-[#000];
+}
+.logo{
+  @apply float-left text-[#f2f2f2] text-center no-underline text-xl py-3.5;
+
 }
 .topnav a {
   @apply float-left text-[#f2f2f2] text-center no-underline text-xl px-4 py-3.5 hover:bg-[#ddd] hover:text-[rgb(116,49,49)];
 }
 .topnav a.active {
-  @apply bg-[#000140] text-[white];
+  @apply bg-[#000] text-[white];
 }
 .topnav-right {
   @apply float-right;
 }
 .novisto-logo {
-  @apply h-[50px];
+  @apply h-[30px] w-[40px];
 }
 .dropdown {
   @apply float-left overflow-hidden;
@@ -19,7 +23,7 @@
 .dropdown .dropbtn {
   @apply text-xl text-[white] bg-inherit m-0 px-4 py-3.5 border-[none];
   outline: none;
-  font-family: inherit;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .dropdown:hover .dropbtn {
   @apply bg-[#ddd] text-[rgb(116,49,49)];

@@ -1,5 +1,6 @@
 .footer-background-container {
-  @apply min-h-[30vh] flex flex-col justify-start items-start bg-[rgb(0,1,64)] p-10;
+  @apply min-h-[30vh] flex flex-col justify-start items-start p-10;
+  background:rgb(23, 22, 22);
   /* background: linear-gradient(to bottom right, rgb(0, 1, 64), rgb(137, 67, 97)); */
 }
 .footer-top-details {
@@ -9,15 +10,17 @@
   @apply flex flex-col justify-start items-start mr-5;
 }
 .footer-heading {
-  @apply text-[rgb(246,89,102)] text-lg font-[bold];
-  font-family: "Serif";
+  @apply text-white text-base underline py-4;
+  font-family: "verdena";
+  font-weight: 300;
+  font-size: large;
 }
 .footer-description {
   @apply text-white text-base;
   font-family: "Serif";
 }
 .email-input {
-  @apply bg-transparent text-[rgb(241,243,245)] text-sm p-2.5 border-t-0 border-b-[white] border-x-0 border-b border-solid;
+  @apply bg-transparent text-[white] text-sm p-2.5 border-t-0 border-b-[white] border-x-0 border-b border-solid;
   outline: none;
   font-family: "Serif";
 }

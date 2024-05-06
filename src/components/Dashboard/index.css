@@ -1,30 +1,32 @@
 .nav-bottom-container-1 {
-  @apply min-h-[50vh] flex flex-row pt-[50px] px-[50px];
+  @apply min-h-[50vh] flex flex-row pt-[10px] px-[40px];
   /* margin-top: 58px; */
   background: linear-gradient(
     to bottom right,
-    rgb(0, 1, 64),
-    rgb(246, 89, 102)
+    rgb(212, 212, 236),
+    rgb(13, 1, 6)
   );
 }
 .nav-card-1 {
-  @apply flex flex-col justify-center items-start;
+ 
+  @apply flex flex-col justify-center items-center ml-[10%];
 }
 .nav-card-heading {
   @apply text-[white] text-[40px];
-  font-family: "Serif";
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .nav-card-description {
   @apply text-[rgb(220,210,219)] text-sm;
-  font-family: "Serif";
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
 }
 .request-button {
-  @apply bg-[rgb(220,210,219)] text-[rgb(39,16,70)] text-xl font-[bold] flex flex-row justify-around items-center w-[140px] h-[50px] mt-5 mt-[50px] rounded-[50px] border-0 hover:bg-[rgb(39,16,70)] hover:text-[rgb(220,210,219)];
-  font-family: "Serif";
+  @apply bg-[black] text-[white] text-xl font-[bold] flex flex-row justify-around items-center w-[10px] h-[50px] mt-2 mt-[5px] rounded-[50px] border-0 hover:bg-[white] hover:text-[black];
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .girl-image {
-  @apply h-[400px] ml-[50px];
+  @apply h-[400px];
 }
 .nav-card-2 {
-  @apply flex flex-col justify-center items-center ml-[25%];
+  @apply flex flex-col justify-center items-start;
 }

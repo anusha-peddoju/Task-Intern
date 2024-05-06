@@ -1,12 +1,23 @@
 .hero-section-one-container {
-  @apply flex flex-col justify-center bg-[aliceblue] pt-[30px];
+  @apply flex flex-col justify-center bg-[aliceblue];
 }
 .hero-section-one-heading {
-  @apply text-black text-[40px] font-extrabold text-center;
-  font-family: "Bree Serif";
+  @apply text-white text-[40px] font-extrabold text-center;
+  background: linear-gradient(
+    to bottom right,
+    rgb(212, 212, 236),
+    rgb(71, 70, 71)
+  );
+  font-family:'Verdana, Geneva, Tahoma, sans-serif';
+  font-weight: 100
 }
 .hero-section-card {
   @apply flex flex-row justify-between mt-0;
+  background: linear-gradient(
+    to bottom right,
+    rgb(212, 212, 236),
+    rgb(13, 1, 6)
+  );
 }
 .hero-section-card-one {
   @apply flex flex-col justify-around items-center ml-[10%];
@@ -18,6 +29,6 @@
   @apply h-[600px] w-[600px];
 }
 .request-button {
-  @apply bg-[rgb(220,210,219)] text-[rgb(39,16,70)] text-xl font-[bold] flex flex-row justify-around items-center w-[140px] h-[50px] mt-5 mt-[50px] rounded-[50px] border-0 hover:bg-[rgb(39,16,70)] hover:text-[rgb(220,210,219)];
-  font-family: "Serif";
+  @apply bg-[black] text-[white] text-xl font-[bold] flex flex-row justify-around items-center w-[140px] h-[50px] mt-5 mt-[50px] rounded-[50px] border-0 hover:bg-[white] hover:text-[black];
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }

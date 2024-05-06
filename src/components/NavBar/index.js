@@ -5,12 +5,14 @@ const NavBar = () => {
   return (
     <div>
       <div className="topnav">
+        <p href="#home" class="logo">Innovative Solutions</p>
         <a className="active" href="#home">
           <img
-            src="https://tse4.mm.bing.net/th?id=OIP.5aIxHzM6K9CZOCMPBoZ6NQHaC7&pid=Api&P=0&h=180"
+            src="https://tse4.mm.bing.net/th?id=OIP.Pyecc1nQ1r3wsILiuWhfoAHaFx&pid=Api&P=0&h=180"
             alt="novista-logo"
             className="novisto-logo"
           />
+          
         </a>
         <a href="#Home">Home</a>
         <a href="#About">About</a>

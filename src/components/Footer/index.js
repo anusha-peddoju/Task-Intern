@@ -13,7 +13,23 @@ const Footer = () => {
   return (
     <div className="footer-background-container">
       <div className="footer-top-details">
+      <div className="footer-top-1 footer-4">
+          <h1 className="footer-heading">Innovative Solutions</h1>
+          <p className="footer-description">Get in touch with our team.</p>
+          
+          <p className="footer-description">
+            2nd floor charminar block high-way hyderabad India
+          </p>
+          <div className="social-media-icons">
+            <AiFillLinkedin className="social-media-icons" />
+            <AiOutlineTwitter className="social-media-icons" />
+            <AiFillYoutube className="social-media-icons" />
+            <AiOutlineInstagram className="social-media-icons" />
+          </div>
+        </div>
+
         <div className="footer-top-1 footer-1">
+
           <h1 className="footer-heading">Get the Latest Insights</h1>
           <p className="footer-description">
             Sign up for weekly curated sustainability news.
@@ -23,40 +39,38 @@ const Footer = () => {
             Subscribe
           </button>
         </div>
+
+        
         <div className="footer-top-1 footer-2">
-          <h1 className="footer-heading">About Product Solutions</h1>
-          <p className="footer-description">Our Team Company News Resources</p>
+          <h1 className="footer-heading">About Innovative Solutions</h1>
+          <p className="footer-description">A safe path for innnovation to follow</p>
         </div>
         <div className="footer-top-1 footer-3">
-          <h1 className="footer-heading">Software Product</h1>
+          <h1 className="footer-heading">Quiuck Links</h1>
           <p className="footer-description">
-             Software For Corporate For Private Capital Sécurité Technology
-          </p>
+         
+          <a href="#Home">Home</a>
+          <br/>
+        <a href="#About">About</a>
+        <br/>
+        <a href="#products">Products</a>
+        <br/>
+        <a href="#contact us">contact us</a>
+        <br/>
+        </p>
         </div>
-        <div className="footer-top-1 footer-4">
-          <h1 className="footer-heading">Let’s talk.</h1>
-          <p className="footer-description">Get in touch with our team.</p>
-          <button className="contact-us-button" type="button">
-            Contact Us
-          </button>
-          <p className="footer-description">
-            481 Viger Ave W #200, Montreal, Quebec, H2Z 1G6 Canada
-          </p>
-          <div className="social-media-icons">
-            <AiFillLinkedin className="social-media-icons" />
-            <AiOutlineTwitter className="social-media-icons" />
-            <AiFillYoutube className="social-media-icons" />
-            <AiOutlineInstagram className="social-media-icons" />
-          </div>
-        </div>
+        
       </div>
+
+    
+
       <div className="element">
         <hr className="horizontal-line" />
       </div>
       <div className="footer-bottom-container">
         <div className="footer-bottom-1">
           <AiOutlineCopyright className="copy-right-icon" />
-          <p className="copy-right-des">2024 product solutions All Rights Reserved.</p>
+          <p className="copy-right-des">2024 Innovative solutions All Rights Reserved.</p>
         </div>
         <div className="footer-bottom-1 footer-bottom-2">
           <p className="copy-right-des terms">Terms of Use</p>
@@ -64,6 +78,7 @@ const Footer = () => {
           <p className="copy-right-des terms">Cookie Polocy</p>
         </div>
       </div>
+      
     </div>
   );
 };
